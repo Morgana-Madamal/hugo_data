@@ -10,3 +10,29 @@ Paginate = 4
   github = "Morgana-Madamal" # add your github profile name
   twitter = "EsteGoAri" # add your twitter profile
   email = "estegoari@me.com"
+
+
+  [[menu.main]]
+      name = "Docs"
+      weight = -100
+      url = "/docs/"
+  [[menu.main]]
+      name = "Blog"
+      weight = -100
+      url = "/blog/"
+  [[menu.main]]
+      name = "Faq"
+      weight = -100
+      url = "/faq/"
+footer =
+      follow:
+      - icon: github
+        url: "https://github.com/Morgana-Madamal"
+      # - icon: dribbble
+      #   url: "#"
+      # - icon: facebook
+      #   url: "#"
+      - icon: twitter
+        url: "https://twitter.com/EsteGoAri"
+      - icon: bitbucket
+        url: "#"
