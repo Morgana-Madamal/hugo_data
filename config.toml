@@ -1,3 +1,12 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.org"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hello World"
+theme = "kube"
+description = "for developers and designers, documentation section mixed with a landing page and a blog"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Estelle" # add your company name
+  github = "Morgana-Madamal" # add your github profile name
+  twitter = "EsteGoAri" # add your twitter profile
+  email = "estegoari@me.com"
